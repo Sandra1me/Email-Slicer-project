@@ -21,6 +21,7 @@ root=Tk()
 root.title("Email Slicer")
 root.geometry('400x200')
 root.config(bg="#F2F2F0")
+root.resizable(0,0)
 
 your=Label(root,text="Insert your email adress:")
 your.grid(row=1,column=0, pady=10)
